@@ -17,4 +17,13 @@ fun main() {
     println(str)
     println(question)
 
+    //Typecasting
+
+    var result1 = number.toDouble()
+    println(result1)
+
+    var output = decimal.toInt()
+    println()
+
+
 }
