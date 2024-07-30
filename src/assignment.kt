@@ -1,20 +1,15 @@
 import java.util.Scanner
 
 fun main() {
-    var letter = Scanner(System.`in`)
+    var read = Scanner(System.`in`)
 
-    println("Enter a letter: ")
-    var alphabet = readln()
+    println("Enter a letter:")
+    var letter = read.next().single()
 
-
-        if (alphabet in listOf('a','e','i','o','u')) {
-            println("$letter is a vowel")
-        }
-
-        else
-        {
-            println("$letter is a consonant")
-        }
+    if (letter == 'a'||letter == 'e'||letter == 'i'||letter == 'o'||letter == 'u'){
+        println("$letter is a vowel.")
+    }
+    else{
+        println("$letter is a consonant.")
+    }
 }
-
-
